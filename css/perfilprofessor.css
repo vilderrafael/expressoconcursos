@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@900 & family= Open+Sans & display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-shadow: rgb(198, 196, 196) 1px 1px 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.titulo{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+}
+.imagem  img{
+    width: 340px;
+    height: 350px;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    align-items: center;
+}
+.texto{
+    line-height: 1.4;
+    margin-bottom: 30px;
+}

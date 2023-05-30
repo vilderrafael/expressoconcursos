@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.texto>p{
+    font-size: 30px;
+    text-align: right;
+}
+.texto > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    
+}
+.banner1{
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.banner2{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: aliceblue;
+}
+.banner3{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 2fr 1fr;;
+}
+.carousel-item img{
+    height: 500px;
+    width: 200px;
+    
+}

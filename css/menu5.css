@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 12vh;
+    justify-content: space-between;
+    background-color:brown;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.nav-itens ul{
+    display: flex;
+    list-style: none;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    margin-right: 10px;
+    
+}
+.nav-itens a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: white;
+    margin-left: 30px;
+    background-color: black;
+    padding: 11px;
+    align-items: center;
+    
+}
+li a:hover{
+    opacity: 0.8;
+    background-color: aqua;
+    transition: 0.7s;
+}
+body{
+    height: 88vh;
+    background:url(../img/expressocurso.png)no-repeat center;
+    background-color: rgb(236, 248, 172);
+}
+.btn-mobile{
+    display: none;
+}
+@media(max-width:900px) {
+    .btn-mobile{
+        display: block;
+    }#navbar{
+        display: block;
+    }
+    
+    .nav-itens{
+        display: block;
+        top: 12vh;
+        width: 50vw;
+        justify-content: space-around;
+        height: 88vh;
+    }
+}
